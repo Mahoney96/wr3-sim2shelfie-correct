@@ -1,68 +1,118 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Shelfie Wr3-App
 
-## Available Scripts
+#### Front-end (client-side)
 
-In the project directory, you can run:
+    Dependencies:
+        • express: The server framework that the Axios requests are sent on. 
+        • express-session (handles making user sessions/ session in general)
+        • axios => (req, res) The application that makes the requests. A promise based HTTP client for making requests to the external servers from a node environment or browser.
+        • react-redux 
+        • react-router-DOM
 
-### `npm start`
+    File Structure:
+    - src
+        - Components: axios is used for sending requests to the server to retrieve components that change state aka have a - put, get, post, delete request attached to their functionality. 
+            - Header (Act as breadcrumb) - 
+            - 
+        - Router:
+            Routing Needed:
+            -
+        -
+        
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Server:
+    Dependencies:
+    • massive (to be rquired in Main server file)
+    • express (Handles creating a RESTFUL API)
+    • express-sessions (Handles creating user-sessions/App sessions in general)
+    • Express (Handles sending the server routing requests)
 
-### `npm test`
+    File Structure: 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Back-End (Database - SQL)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+    Dependencies:
+        • express (Backend is created using Express)
+        • massive => backend (req, res) (connection with Heroku & SQL DB)
+        • SQL (database). Massive using express as the server framework
+        • dotenv (loads App environment variables, )
+        • bcryptjs (authentication/security)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Endpoints:
+        - Shelves
+            • GET: api/shelf/:id -Returns a bin object. If there is no bin, returns null
+            • (:id) is the shelf id. Which can be 'A', 'B', 'C', 'D'.
 
-### `npm run eject`
+        - Bins
+            • GET: /api/bin/:id - Returns a bin object. If there is no bin, returns null. 
+                • (:id) is the (shelf) and (bin) (id) EX. - 'A2', 'C4', 'B2'..
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+            • PUT: /api/bin/:id - (Updates) and (Returns) a (bin) {object}
+                • This endpoint is only accesible if there is a bin object.
+                    • (:id) is the (shelf) and (bin) combined. EX - 'A5', 'B1', 'C3'.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+            •DELETE: /api/bin/:id - Deletes a bin object. Returns nothing.
+                • :id is the shelf and bn id combined. EX. - 'A2', 'C4', 'B2'.
+            
+            • POST: /api/bin/:id - Cretes a new bin object. Returns nothing. 
+                • This endpoint should only be accessible if there is not a bin object already. 
+                • :id is the shelf and bin id combined. EX. - 'A2', 'C4', 'B2'.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    File Structure:
 
-## Learn More
+    Environment:
+        - dotenv: (For environment connection between db. local port, and server)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        - massive: (Handling our connection with Heroku & SQL DB)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        - nodejs: When excuting a command with node, all your doing is telling it to run that file's script. 
+           • Ex. -  node index.js is telling node to excute the index.js file.
 
-### Code Splitting
+        - Running multiple NPM NODE scripts (running scripts sequentially)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+***icebox***
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+#### Reference Notes: 
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Link for generating images: http://lorempixel.com/200/200/business/
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+bycrpt - not needed in this App for functionality. Will be attempting to add. 
+
+
+    Front-End: ( Front-end calls the backend for 'bins' data)
+
+        Bins: (listed on front-end; display full or empty)
+        - bin1 ()
+        - bin2 ()
+        - bin3 ()
+        - bin4 ()
+        - bin5 ()
+
+    Back-End:
+        bcrypt vs bcryptjs:
+            - bcrypt: only works with node, would need further dependencies.
+            - bcryptjs: Works on all majors browsers. what to use for app.
+
+
+    Axios:
+     - Library that helps structure http requests.
+     - Axios written in controller and component files.
+     - Axios is writtne in 
+
+
+
+
+ #### Sctratch Notes
+
+
