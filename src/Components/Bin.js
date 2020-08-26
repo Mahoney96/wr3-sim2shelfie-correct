@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class Bin extends { Component } {
-    render(){
-        return <div> 
+// class Bin extends Component  {
+//     render(){
+//         return <header>
+            
+//         </header>
+//     };
+// }
 
-        Bin Component.
-        </div>
-    };
-}
+class Bin extends Component {
 
+    getAllShoes = () => { 
+    } axios.get('').then
+};
 
+export default Bin;
 
 // First:  Bin to display ' + Add Inventory ' when empty;
 
