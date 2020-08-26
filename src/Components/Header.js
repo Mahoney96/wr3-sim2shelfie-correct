@@ -9,7 +9,6 @@ return <div>
     </div>
 
     };
-    axios.get(api/shoes)
 
 };
 

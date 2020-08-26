@@ -48,5 +48,3 @@
     "price": 130
 }
 ]
-
-axios.get(http://localhost:3993/test-shoes.json)

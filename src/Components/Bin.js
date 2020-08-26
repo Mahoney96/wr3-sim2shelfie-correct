@@ -5,13 +5,12 @@ class Bin extends { Component } {
     render(){
         return <div> 
 
-
+        Bin Component.
         </div>
-    }
+    };
 }
 
 
- axios.get("/localhost://3993/)
 
 // First:  Bin to display ' + Add Inventory ' when empty;
 
