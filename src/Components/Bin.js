@@ -11,7 +11,7 @@ class Bin extends { Component } {
 }
 
 
- 
+ axios.get("/localhost://3993/)
 
 // First:  Bin to display ' + Add Inventory ' when empty;
 
@@ -23,5 +23,9 @@ class Bin extends { Component } {
 // Components involved with Bin Inventory - 
 
     // Header.js
-    
 
+//  Will be the file connected to the SQL DB of shoes => Massive
+
+// will need express to communicate from front to back 
+
+// axios to the made the endpoint calls

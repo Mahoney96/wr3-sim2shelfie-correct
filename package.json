@@ -2,7 +2,7 @@
   "name": "wr3-sim2shelfie-correct",
   "version": "0.1.0",
   "private": true,
-  "main": "",
+  "main": "server/index.js",
   "proxy": "localhost://3993",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
