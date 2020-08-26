@@ -9,8 +9,8 @@ return <div>
     </div>
 
     };
+    axios.get(api/shoes)
 
-    
 };
 
 export default Header;
