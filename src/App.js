@@ -14,7 +14,6 @@ class App extends React.Component{
             <BinList />
             <HomePage/>
         </div>
-    }
-}
+}};
 
 export default App;
