@@ -3,11 +3,7 @@
 #### Front-end (client-side)
 
     Dependencies:
-        • express: The server framework that the Axios requests are sent on. 
-        • express-session (handles making user sessions/ session in general)
-        • axios => (req, res) The application that makes the requests. A promise based HTTP client for making requests to the external servers from a node environment or browser.
-        • react-redux 
-        • react-router-DOM
+        •
 
     File Structure:
     - src
@@ -16,30 +12,21 @@
             - 
         - Router:
             Routing Needed:
-            -
+            - 
         -
         
 
 
 #### Server:
     Dependencies:
-    • massive (to be rquired in Main server file)
-    • express (Handles creating a RESTFUL API)
-    • express-sessions (Handles creating user-sessions/App sessions in general)
-    • Express (Handles sending the server routing requests)
-
-    File Structure: 
+    •
 
 
 
 #### Back-End (Database - SQL)
 
     Dependencies:
-        • express (Backend is created using Express)
-        • massive => backend (req, res) (connection with Heroku & SQL DB)
-        • SQL (database). Massive using express as the server framework
-        • dotenv (loads App environment variables, )
-        • bcryptjs (authentication/security)
+       
 
     Endpoints:
         - Shelves
