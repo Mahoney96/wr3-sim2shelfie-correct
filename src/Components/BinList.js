@@ -11,19 +11,19 @@ class BinList extends { Component }{
 export default BinList;
 
 
-app.get('/api/BinList', (req, res) =>{
-    res.status(200).return(BinList)
-}).then
+// app.get('/api/BinList', (req, res) =>{
+//     res.status(200).return(BinList)
+// }).then
 
 
-app.put('/api/BinList', (req, res) =>{
+// app.put('/api/BinList', (req, res) =>{
 
-}).return
+// }).return
 
 
 
-app.get('/api/BinList', (req, res) =>{
+// app.get('/api/BinList', (req, res) =>{
 
-})
+// })
 
 
