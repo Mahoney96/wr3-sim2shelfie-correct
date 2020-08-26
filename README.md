@@ -77,10 +77,8 @@ Description: Create an e-commerce app that hosts (4) shelves of products, each c
 #### Reference Notes: 
 
 
-Link for generating images: http://lorempixel.com/200/200/business/
+Link for generating images: http://lorempixel.com/g/400/200
 
-
-bycrpt - not needed in this App for functionality. Will be attempting to add. 
 
 
     Front-End: ( Front-end calls the backend for 'bins' data)
@@ -101,7 +99,7 @@ bycrpt - not needed in this App for functionality. Will be attempting to add.
     Axios:
      - Library that helps structure http requests.
      - Axios written in controller and component files.
-     - Axios is writtne in 
+     - Axios is written 
 
 
 
@@ -110,3 +108,6 @@ bycrpt - not needed in this App for functionality. Will be attempting to add.
 
 
 app.get('http://localhost:3993/test-shoes.json'
+
+endpoints: 
+

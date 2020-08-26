@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import axios from "axios";
+import CompanyLogo from "./CompanyLogo";
 
 
-class Header extends { Component }{
-    render(){
-return <div>
-    This is the Header Component. 
-    </div>
-
-    }
+function Header(){
+        return(<div>
+            <h1>Shelfie</h1>
+            <CompanyLogo/>
+        </div>)
 
 }
+
 
 export default Header;
 
