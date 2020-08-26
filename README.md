@@ -109,3 +109,4 @@ bycrpt - not needed in this App for functionality. Will be attempting to add.
  #### Sctratch Notes
 
 
+app.get('http://localhost:3993/test-shoes.json')
