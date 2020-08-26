@@ -1,5 +1,11 @@
 #### Shelfie Wr3-App
 
+### MVP
+
+Description: Create an e-commerce app that hosts (4) shelves of products, each containing 
+
+
+
 #### Front-end (client-side)
 
     Dependencies:
