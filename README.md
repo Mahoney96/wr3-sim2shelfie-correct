@@ -90,18 +90,20 @@ Link for generating images: http://lorempixel.com/g/400/200
         - bin4 ()
         - bin5 ()
 
-    Back-End:
-        bcrypt vs bcryptjs:
-            - bcrypt: only works with node, would need further dependencies.
-            - bcryptjs: Works on all majors browsers. what to use for app.
-
-
     Axios:
      - Library that helps structure http requests.
      - Axios written in controller and component files.
      - Axios is written 
 
+     
 
+Functionality to attempt later: 
+    Back-End:
+        • {HashRouter}
+        • express-session
+        • bcrypt vs bcryptjs:
+            - bcrypt: only works with node, would need further dependencies.
+            - bcryptjs: Works on all majors browsers. what to use for app.
 
 
  #### Sctratch Notes
